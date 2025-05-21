@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "Hi, I have trouble sleeping."
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry to hear that. How long have you had trouble sleeping?"
+  },
+  {
+    "role": "user",
+    "content": "For the last few months."
+  },
+  {
+    "role": "assistant",
+    "content": "I see. Are you currently following any bedtime routine or doing anything to help your sleep?"
+  },
+  {
+    "role": "user",
+    "content": "Not really, I don't know where to start."
+  },
+  {
+    "role": "assistant",
+    "content": "There are a few things we can try. For example, setting a consistent bedtime and doing a relaxing activity before bed might help."
+  }
+]
