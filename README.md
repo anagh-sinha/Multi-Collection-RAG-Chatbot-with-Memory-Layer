@@ -4,6 +4,7 @@
 This directory contains an implementation of a Retrieval-Augmented Generation (RAG) chatbot with multiple data sources and a memory layer. The chatbot retrieves information from various collections (wearable data, user profile, location info, custom knowledge base) and maintains conversational context through a summarization-based memory.
 
 ## Project Structure
+```
 Multi-Collection-RAG-Chatbot-with-Memory-Layer/
 ├── ingest.py # Ingest data and build the knowledge index
 ├── retrieve.py # Retrieve relevant info from indexed data
@@ -17,7 +18,7 @@ Multi-Collection-RAG-Chatbot-with-Memory-Layer/
 │ ├── location_data.json
 │ └── custom_collection.json
 └── requirements.txt # Python dependencies
-
+```
 
 ## Setup and Installation
 1. **Install Dependencies**: Navigate to this `Multi-Collection-RAG-Chatbot-with-Memory-Layer` directory in VS Code and run:  
