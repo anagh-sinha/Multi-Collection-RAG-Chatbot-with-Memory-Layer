@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2025-05-18",
+    "sleep_score": 82,
+    "sleep_duration": "7h 15m",
+    "deep_sleep": "1h 30m",
+    "rem_sleep": "1h 45m"
+  },
+  {
+    "date": "2025-05-19",
+    "sleep_score": 76,
+    "sleep_duration": "6h 50m",
+    "deep_sleep": "1h 10m",
+    "rem_sleep": "1h 20m"
+  },
+  {
+    "date": "2025-05-20",
+    "sleep_score": 90,
+    "sleep_duration": "8h 05m",
+    "deep_sleep": "2h 00m",
+    "rem_sleep": "1h 30m"
+  }
+]
