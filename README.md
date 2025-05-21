@@ -49,13 +49,13 @@ python app.py
 This will initialize the bot (loading the index and any chat history) and then prompt you for input in the console. 
 
 # Example:
-Assistant: "Hello Alice, I'm your sleep assistant. How can I help you today?"
+```Assistant: "Hello Alice, I'm your sleep assistant. How can I help you today?"
 You can then type a question, e.g. "How did I sleep on 2025-05-19?"
 Assistant: "On 2025-05-19, your wearable recorded about 6 hours 50 minutes of sleep with a score of 76. It wasn't your best night. Let's work on improving that..."
 (The assistant pulled data from the wearable_data collection.)
 The assistant's answers will combine information from your data and general sleep coaching knowledge. It also remembers earlier conversation. For instance, if you say "Give me some tips to sleep better," it might reply with advice that includes your profile or custom tips:
 Assistant: "Sure. Maintaining good sleep hygiene is important. Avoid caffeine at least 6 hours before bedtime, and try to limit screen time before bed. Also, a consistent bedtime routine can help you fall asleep easier."
-
+```
 ## To end the chat, type "exit", "quit", or "bye".
 
 
