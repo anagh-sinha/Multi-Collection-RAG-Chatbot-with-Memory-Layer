@@ -10,4 +10,4 @@ Multi-collection Retrieval-Augmented Generation (RAG) Sleep Assistant Chatbot wi
 │   ├── user_profile.json  
 │   ├── location_data.json  
 │   └── custom_collection.json  
-└── requirements.txt        # Dependencies for Task 1  
+└── requirements.txt        # Dependencies required
