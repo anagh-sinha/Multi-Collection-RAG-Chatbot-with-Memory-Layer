@@ -49,8 +49,9 @@ python app.py
 This will initialize the bot (loading the index and any chat history) and then prompt you for input in the console. 
 
 # Example:
+![image](https://github.com/user-attachments/assets/d2a715d4-e59b-4a88-b5a8-8b619306a8d2)
+
 ```
-![image](https://github.com/user-attachments/assets/15435a54-79db-4ac9-bbdc-84969066ad69)
 (The assistant pulled data from the wearable_data collection.)
 The assistant's answers combinec custom information from our data and general sleep coaching knowledge. It also remembers earlier conversation. For instance, if you say "Give me some tips to sleep better," it might reply with advice that includes your profile or custom tips:
 Assistant: "Sure. Maintaining good sleep hygiene is important. Avoid caffeine at least 6 hours before bedtime, and try to limit screen time before bed. Also, a consistent bedtime routine can help you fall asleep easier."
