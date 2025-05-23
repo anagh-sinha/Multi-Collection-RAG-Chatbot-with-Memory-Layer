@@ -36,14 +36,17 @@ if __name__ == "__main__":
             memory.add_message(role, content)
     # Initialize the retriever with the indexed data
     retriever = Retriever(index_file)
+
     # Create the LLM-based chatbot agent
     agent = LLMChatbot(memory, retriever, user_profile=profile_data)
+
     # Greet the user
     if profile_data and profile_data.get("name"):
         name = profile_data["name"]
         print(f"Assistant: Hello {name}, I'm your sleep assistant. How can I help you today?")
     else:
         print("Assistant: Hello, I'm your AI sleep assistant. How can I help you today?")
+    
     # Chat loop
     try:
         while True:
@@ -53,6 +56,7 @@ if __name__ == "__main__":
             if user_input.lower() in ["exit", "quit", "bye"]:
                 print("Assistant: Goodbye! Take care.")
                 break
+
             # Get assistant response and print it
             assistant_reply = agent.get_response(user_input)
             print(f"Assistant: {assistant_reply}")
