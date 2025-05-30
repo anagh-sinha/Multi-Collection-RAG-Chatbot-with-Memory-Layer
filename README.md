@@ -1,5 +1,4 @@
-# Naptick-AI-Challenge
-## Task 1: Multi-Collection RAG Chatbot with Memory Layer
+# Multi-collection Retrieval-Augmented Generation (RAG) Sleep Assistant Chatbot with a Memory Layer
 
 This directory contains an implementation of a Retrieval-Augmented Generation (RAG) chatbot with multiple data sources and a memory layer. The chatbot retrieves information from various collections (wearable data, user profile, location info, custom knowledge base) and maintains conversational context through a summarization-based memory.
 
@@ -50,9 +49,12 @@ python app.py
 This will initialize the bot (loading the index and any chat history) and then prompt you for input in the console. 
 
 # Example:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/d2a715d4-e59b-4a88-b5a8-8b619306a8d2)
+
+```
 (The assistant pulled data from the wearable_data collection.)
-The assistant's answers combined information from the custom data provided and general sleep coaching knowledge. It also remembers earlier conversation. For instance, if you say "Give me some tips to sleep better," it might reply with advice that includes your profile or custom tips:
+The assistant's answers combinec custom information from our data and general sleep coaching knowledge. It also remembers earlier conversation. For instance, if you say "Give me some tips to sleep better," it might reply with advice that includes your profile or custom tips:
+Assistant: "Sure. Maintaining good sleep hygiene is important. Avoid caffeine at least 6 hours before bedtime, and try to limit screen time before bed. Also, a consistent bedtime routine can help you fall asleep easier."
 ```
 ## To end the chat, type "exit", "quit", or "bye".
 

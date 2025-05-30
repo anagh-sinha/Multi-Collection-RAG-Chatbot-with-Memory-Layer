@@ -1,4 +1,4 @@
-Task1/  
+Multi-collection Retrieval-Augmented Generation (RAG) Sleep Assistant Chatbot with Memory layer. 
 ├── ingest.py               # Data ingestion and indexing script  
 ├── retrieve.py             # Retrieval module for multi-collection data  
 ├── memory.py               # Chat history memory manager with summarization  
@@ -10,4 +10,4 @@ Task1/
 │   ├── user_profile.json  
 │   ├── location_data.json  
 │   └── custom_collection.json  
-└── requirements.txt        # Dependencies for Task 1  
+└── requirements.txt        # Dependencies required
