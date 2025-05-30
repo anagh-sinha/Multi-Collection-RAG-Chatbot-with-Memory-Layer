@@ -24,9 +24,11 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Error during ingestion: {e}")
             exit(1)
+
     # Load profile and past chat history data
     profile_data = load_json(os.path.join(data_dir, "user_profile.json"))
     chat_history = load_json(os.path.join(data_dir, "chat_history.json"))
+
     # Initialize memory and preload any past chat history into it
     memory = MemoryManager()
     if chat_history:
